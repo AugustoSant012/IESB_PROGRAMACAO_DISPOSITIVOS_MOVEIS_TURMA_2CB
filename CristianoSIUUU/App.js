@@ -44,23 +44,23 @@ export default function App() {
         
         {/* Imagens */}
         <Image 
-          source={require('./imagem/c1.jpg')}  // Caminho correto para a imagem
+          source={require('./imagem/c1.jpg')}  
           style={styles.imagem}
         />
         <Image 
-          source={require('./imagem/c4.webp')}  // Caminho correto para a imagem
+          source={require('./imagem/c4.webp')}  
           style={styles.imagem}
         />
         <Image 
-          source={require('./imagem/c2.jpg')}  // Caminho correto para a imagem
+          source={require('./imagem/c2.jpg')}  
           style={styles.imagem}
         />
         <Image 
-          source={require('./imagem/c3.jpg')}  // Caminho correto para a imagem
+          source={require('./imagem/c3.jpg')}  
           style={styles.imagem}
         />
         <Image 
-          source={require('./imagem/c4.webp')}  // Caminho correto para a imagem
+          source={require('./imagem/c4.webp')}  
           style={styles.imagem}
         />
       </View>
@@ -72,7 +72,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5F5F5', // cor de fundo mais neutra
+    backgroundColor: '#F5F5F5',
   },
   viewContainer: {
     alignItems: 'center',
@@ -100,6 +100,6 @@ const styles = StyleSheet.create({
     height: 200,
     width: 200,
     marginVertical: 10,
-    borderRadius: 10, // borda arredondada para as imagens
+    borderRadius: 10, 
   }
 });
