@@ -12,7 +12,7 @@ export default function App() {
     "Posição: Atacante",
     "Idade: 38 anos",
     "País: Portugal",
-    "Gols: 800+",
+    "Gols: 900+",
     "Assistências: 230+"
   ];
 
@@ -41,26 +41,26 @@ export default function App() {
         <Button title="GOL" onPress={alerta} />
 
         <StatusBar style="auto" />
-        
+
         {/* Imagens */}
-        <Image 
-          source={require('./imagem/c1.jpg')}  
+        <Image
+          source={require('./imagem/c1.jpg')}
           style={styles.imagem}
         />
-        <Image 
-          source={require('./imagem/c4.webp')}  
+        <Image
+          source={require('./imagem/c4.webp')}
           style={styles.imagem}
         />
-        <Image 
-          source={require('./imagem/c2.jpg')}  
+        <Image
+          source={require('./imagem/c2.jpg')}
           style={styles.imagem}
         />
-        <Image 
-          source={require('./imagem/c3.jpg')}  
+        <Image
+          source={require('./imagem/c3.jpg')}
           style={styles.imagem}
         />
-        <Image 
-          source={require('./imagem/c4.webp')}  
+        <Image
+          source={require('./imagem/c4.webp')}
           style={styles.imagem}
         />
       </View>
@@ -100,6 +100,6 @@ const styles = StyleSheet.create({
     height: 200,
     width: 200,
     marginVertical: 10,
-    borderRadius: 10, 
+    borderRadius: 10,
   }
 });
